@@ -2,6 +2,7 @@
   font-family: sans-serif;
 }
 
+
 body {
   margin: 0px;
 }
@@ -15,8 +16,8 @@ body {
 }
 
 .section {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .dark {
@@ -28,22 +29,23 @@ body {
   display: flex;
 }
 
-.header > .logo {
+.header .logo {
   width: 40%;
   font-size: 24px;
   display: flex;
 }
 
-.logo > span {
+.logo span {
   display: block;
   align-self: center;
 }
 
-.header > .text-primary {
-  font: 48px extra-bold;
+.text-primary {
+  font-size: 48px;
+  font-weight: 900;
 }
 
-.header > .text-secondary {
+.dark .text-secondary {
   font-size: 18px;
   color: #E5E7EB
 }
@@ -60,5 +62,31 @@ body {
 .menuitem {
   display: block;
   margin: 10px;
+}
+
+.spaced {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.fifty50 {
+  display: flex;
+}
+
+.fifty {
+  width: 50%;
+}
+
+.fifty.heroimage {
+  overflow: hidden;
+}
+
+.hero.fifty {
+  padding-right: 10px;
+}
+
+.heroimage img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
