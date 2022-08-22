@@ -29,7 +29,14 @@ body {
 }
 
 .header > .logo {
+  width: 40%;
   font-size: 24px;
+  display: flex;
+}
+
+.logo > span {
+  display: block;
+  align-self: center;
 }
 
 .header > .text-primary {
