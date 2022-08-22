@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.test-red {
+  border: 1px solid  red;
+}
+
+.test-blue {
+  border: 1px solid  blue;
+}
+
+.section {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.dark {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.section > .header {
+  display: flex;
+}
+
+.header > .logo {
+  font-size: 24px;
+}
+
+.header > .text-primary {
+  font: 48px extra-bold;
+}
+
+.header > .text-secondary {
+  font-size: 18px;
+  color: #E5E7EB
+}
+
+.menu {
+  width: 100%;
+}
+
+.menulist {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuitem {
+  display: block;
+  margin: 10px;
+}
+
