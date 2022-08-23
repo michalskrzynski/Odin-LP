@@ -22,11 +22,14 @@ body {
 
 .dark {
   background-color: #1F2937;
-  color: #F9FAF8;
 }
 
 .grey {
   background-color: #E5E7EB;
+}
+
+.text-white {
+  color: #F9FAF8;
 }
 
 .section > .header {
@@ -55,12 +58,11 @@ body {
 
 .dark .text-secondary {
   font-size: 18px;
-  color: #E5E7EB
 }
 
 .text-infoheader {
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: 900;
   font-family: sans-serif;
 }
 
@@ -151,5 +153,29 @@ blockquote {
 
 .pr40 {
   padding-right: 40px;
+}
+
+.margined {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.wellpadded {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.blue {
+  background-color: #3882F6;
+}
+
+#cta {
+  margin: 0px;
+}
+
+#copyright {
+  font-weight: 100;
 }
 
