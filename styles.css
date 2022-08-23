@@ -45,9 +45,19 @@ body {
   font-weight: 900;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .dark .text-secondary {
   font-size: 18px;
   color: #E5E7EB
+}
+
+.text-infoheader {
+  font-size: 36px;
+  font-weight: extra-bold;
+  font-family: sans-serif;
 }
 
 .menu {
@@ -69,6 +79,10 @@ body {
   padding-bottom: 40px;
 }
 
+.m10 {
+  margin: 10px;
+}
+
 .fifty50 {
   display: flex;
 }
@@ -88,5 +102,31 @@ body {
 .heroimage img {
   max-width: 100%;
   max-height: 100%;
+}
+
+
+
+.contentboxes {
+  display: flex;
+  justify-content: center;
+}
+
+.contentbox {
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.contentbox .box {
+  width: 160px;
+  height: 160px;
+  box-sizing: border-box;
+}
+
+.bordered {
+  border: 2px solid;
+}
+
+.actioncolor {
+  color: #3882F6
 }
 
